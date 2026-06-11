@@ -1,0 +1,37 @@
+[project]
+name = "python-starter-template"
+version = "0.1.0"
+description = "Dorman Lab Python starter project"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "h5py",
+  "ipykernel",
+  "ipympl",
+  "ipywidgets",
+  "matplotlib",
+  "numpy",
+  "openpyxl",
+  "pandas",
+  "polars",
+  "pyarrow",
+  "requests",
+  "scikit-learn",
+  "scipy",
+  "seaborn",
+  "statsmodels",
+  "tqdm",
+  "xarray"
+]
+
+[dependency-groups]
+dev = [
+  "pytest",
+  "ruff"
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
