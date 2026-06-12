@@ -4,14 +4,18 @@ version = "0.1.0"
 description = "Dorman Lab Python starter project"
 requires-python = ">=3.12,<3.13"
 dependencies = [
+  "gdown",
   "h5py",
   "ipykernel",
   "ipympl",
   "ipywidgets",
+  "joblib",
   "matplotlib",
   "numpy",
   "openpyxl",
   "pandas",
+  "pip",
+  "plotly",
   "polars",
   "pyarrow",
   "requests",
@@ -19,6 +23,7 @@ dependencies = [
   "scipy",
   "seaborn",
   "statsmodels",
+  "tables",
   "tqdm",
   "xarray"
 ]
